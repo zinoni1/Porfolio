@@ -86,9 +86,7 @@
         backDelay: 2000
       });
     }
-  
-    new PureCounter();
-  
+    
     let skillsAnimation = document.querySelectorAll('.skills-animation');
     skillsAnimation.forEach((item) => {
       new Waypoint({

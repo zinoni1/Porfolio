@@ -461,9 +461,6 @@
     }
   }
   
-  /*--------------------------------------------------------------
-  # Scroll Top Button
-  --------------------------------------------------------------*/
   .scroll-top {
     position: fixed;
     visibility: hidden;
@@ -495,18 +492,12 @@
     bottom: 15px;
   }
   
-  /*--------------------------------------------------------------
-  # Disable aos animation delay on mobile devices
-  --------------------------------------------------------------*/
   @media screen and (max-width: 768px) {
     [data-aos-delay] {
       transition-delay: 0 !important;
     }
   }
   
-  /*--------------------------------------------------------------
-  # Global Page Titles & Breadcrumbs
-  --------------------------------------------------------------*/
   .page-title {
     color: var(--default-color);
     background-color: var(--background-color);
@@ -548,9 +539,6 @@
     color: color-mix(in srgb, var(--default-color), transparent 70%);
   }
   
-  /*--------------------------------------------------------------
-  # Global Sections
-  --------------------------------------------------------------*/
   section,
   .section {
     color: var(--default-color);
@@ -568,9 +556,6 @@
     }
   }
   
-  /*--------------------------------------------------------------
-  # Global Section Titles
-  --------------------------------------------------------------*/
   .section-title {
     padding-bottom: 60px;
     position: relative;
@@ -606,10 +591,6 @@
     text-transform: uppercase;
     font-family: var(--heading-font);
   }
-  
-  /*--------------------------------------------------------------
-  # Hero Section
-  --------------------------------------------------------------*/
   .hero {
     width: 100%;
     min-height: 100vh;
@@ -682,10 +663,6 @@
       font-size: 20px;
     }
   }
-  
-  /*--------------------------------------------------------------
-  # About Section
-  --------------------------------------------------------------*/
   .about .content h2 {
     font-weight: 700;
     font-size: 24px;
@@ -713,9 +690,6 @@
     line-height: 0;
   }
   
-  /*--------------------------------------------------------------
-  # Stats Section
-  --------------------------------------------------------------*/
   .stats i {
     background-color: var(--surface-color);
     color: var(--accent-color);
@@ -758,9 +732,6 @@
     font-size: 16px;
   }
   
-  /*--------------------------------------------------------------
-  # Skills Section
-  --------------------------------------------------------------*/
   .skills .progress {
     height: 60px;
     display: block;
@@ -795,9 +766,6 @@
     background-color: var(--accent-color);
   }
   
-  /*--------------------------------------------------------------
-  # Interests Section
-  --------------------------------------------------------------*/
   .interests .features-item {
     background-color: var(--surface-color);
     display: flex;
@@ -835,9 +803,6 @@
     color: var(--accent-color);
   }
   
-  /*--------------------------------------------------------------
-  # Testimonials Section
-  --------------------------------------------------------------*/
   .testimonials .testimonials-carousel,
   .testimonials .testimonials-slider {
     overflow: hidden;
@@ -921,9 +886,6 @@
     background-color: var(--accent-color);
   }
   
-  /*--------------------------------------------------------------
-  # Resume Section
-  --------------------------------------------------------------*/
   .resume .resume-title {
     color: var(--heading-color);
     font-size: 26px;
@@ -980,9 +942,6 @@
     border: 2px solid var(--accent-color);
   }
   
-  /*--------------------------------------------------------------
-  # Services Section
-  --------------------------------------------------------------*/
   .services .service-item {
     background-color: var(--surface-color);
     text-align: center;
@@ -1057,7 +1016,6 @@
   .services .service-item:hover p {
     color: var(--contrast-color);
   }
-  
   .service-details .services-list {
     background-color: var(--surface-color);
     padding: 10px 30px;
@@ -1121,9 +1079,6 @@
     color: var(--accent-color);
   }
   
-  /*--------------------------------------------------------------
-  # Portfolio Section
-  --------------------------------------------------------------*/
   .portfolio .portfolio-filters {
     padding: 0;
     margin: 0 auto 20px auto;
@@ -1233,9 +1188,6 @@
     transform: scale(1.1);
   }
   
-  /*--------------------------------------------------------------
-  # Portfolio Details Section
-  --------------------------------------------------------------*/
   .portfolio-details .portfolio-details-slider img {
     width: 100%;
   }
@@ -1293,107 +1245,4 @@
   .portfolio-details .portfolio-description p {
     padding: 0;
     color: color-mix(in srgb, var(--default-color), transparent 30%);
-  }
-  
-  /*--------------------------------------------------------------
-  # Starter Section Section
-  --------------------------------------------------------------*/
-  .starter-section {
-    /* Add your styles here */
-  }
-  
-  /*--------------------------------------------------------------
-  # Contact Section
-  --------------------------------------------------------------*/
-  .contact .info-item {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px;
-  }
-  
-  .contact .info-item .icon {
-    color: var(--contrast-color);
-    background-color: var(--accent-color);
-    width: 56px;
-    height: 56px;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  .contact .info-item h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0 0 2px 0;
-  }
-  
-  .contact .info-item p {
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 14px;
-  }
-  
-  .contact .info-item .social-links a {
-    font-size: 24px;
-    display: inline-block;
-    line-height: 1;
-    margin: 4px 6px 0 0;
-    transition: 0.3s;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
-  }
-  
-  .contact .info-item .social-links a:hover {
-    color: var(--accent-color);
-  }
-  
-  .contact .php-email-form {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin-top: 30px;
-  }
-  
-  @media (max-width: 575px) {
-    .contact .php-email-form {
-      padding: 20px;
-    }
-  }
-  
-  .contact .php-email-form input[type=text],
-  .contact .php-email-form input[type=email],
-  .contact .php-email-form textarea {
-    color: var(--default-color);
-    background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-    border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-    font-size: 14px;
-    padding: 10px 15px;
-    box-shadow: none;
-    border-radius: 0;
-  }
-  
-  .contact .php-email-form input[type=text]:focus,
-  .contact .php-email-form input[type=email]:focus,
-  .contact .php-email-form textarea:focus {
-    border-color: var(--accent-color);
-  }
-  
-  .contact .php-email-form input[type=text]::placeholder,
-  .contact .php-email-form input[type=email]::placeholder,
-  .contact .php-email-form textarea::placeholder {
-    color: color-mix(in srgb, var(--default-color), transparent 70%);
-  }
-  
-  .contact .php-email-form button[type=submit] {
-    color: var(--contrast-color);
-    background: var(--accent-color);
-    border: 0;
-    padding: 10px 30px;
-    transition: 0.4s;
-    border-radius: 50px;
-  }
-  
-  .contact .php-email-form button[type=submit]:hover {
-    background: color-mix(in srgb, var(--accent-color), transparent 20%);
   }
